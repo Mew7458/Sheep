@@ -1,0 +1,13 @@
+name: SheepWolfGame
+version: 0.1.0
+main: com.sheepwolf.game.SheepWolfPlugin
+api-version: '1.21'
+authors: [SheepWolf]
+commands:
+  sw:
+    description: SheepWolf game control
+    usage: /sw <start|stop|reset>
+    permission: sheepwolf.admin
+permissions:
+  sheepwolf.admin:
+    default: op
